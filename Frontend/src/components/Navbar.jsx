@@ -101,8 +101,8 @@ export default function Navbar() {
         <header
             ref={headerRef}
             className={`font-body sticky top-0 z-50 transition-all duration-300 ${scrolled
-                    ? "bg-white/90 shadow-lg shadow-slate-900/10 backdrop-blur-md"
-                    : "bg-white shadow-sm"
+                ? "bg-white/90 shadow-lg shadow-slate-900/10 backdrop-blur-md"
+                : "bg-white shadow-sm"
                 }`}
         >
             {/* Top strip */}
@@ -132,7 +132,7 @@ export default function Navbar() {
                     </span>
                     <span className="min-w-0">
                         <span className="font-display block text-lg font-extrabold text-slate-900 sm:text-xl">
-                            Our School
+                            C R K inter college
                         </span>
                         <span className="block text-xs text-amber-600">Knowledge is Power</span>
                     </span>

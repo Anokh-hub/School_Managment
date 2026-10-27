@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import SchoolShowcase from "../components/Schoolshowcase";
 import {
     ArrowRight,
     BookOpen,
@@ -166,6 +167,7 @@ export default function Home() {
                     </div>
                 </Reveal>
             </section>
+            <SchoolShowcase />
 
             {/* ================= About ================= */}
             <section className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 lg:grid-cols-2 lg:py-28">
